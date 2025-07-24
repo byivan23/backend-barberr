@@ -7,10 +7,11 @@ const Cita = require('./models/Cita');
 
 const app = express();
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://barber-diego.onrender.com'],
+  origin: ['http://localhost:3000', 'https://diegobarber-frontend.onrender.com'],
   methods: ['GET', 'POST', 'DELETE'],
   credentials: true
 }));
+
 
 app.use(express.json());
 
